@@ -1,0 +1,58 @@
+/*
+* Erin Berger
+* April 10, 2019
+* Sports 
+*/
+
+/* The universal selector */
+
+* . {
+
+}
+
+/* Body attributes here */
+
+body {
+    
+    font-family: "Courier New", Courier, monospace; 
+        
+    /* this is to change the background color */ 
+  background-color: darkgray;
+    
+}
+
+
+
+h1 {
+    font-size: 150%;
+    text-align: center; 
+    text-transform: uppercase;
+    text-decoration: underline overline; 
+}
+
+h1 { 
+    background-color: #ee3e80; }
+
+
+
+h3 {
+    text-align: center 
+}
+
+
+/* this makes the image float to the right */ 
+figure { float: right; }
+
+header {background-color: azure; }
+main {background-color:darkturquoise; }
+footer {background-color: fuchsia; }
+
+
+a:link, a:visited {
+    color: white;
+    text-decoration: underline;}
+
+a:hover, a:focus {
+    color: darkblue;
+    text-decoration: underline;
+}
